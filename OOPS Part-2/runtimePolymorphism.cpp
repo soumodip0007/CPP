@@ -16,7 +16,7 @@ class Luigi:public Mario {
 int main() {
 	Luigi l;
 	l.Mario::show();
-	
+
 	Mario *ptr;
 	ptr=&l;
 	ptr->show();

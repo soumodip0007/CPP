@@ -1,17 +1,23 @@
 #include<iostream>
 
-using namespace std;
-int factorial(int num) {
-	if(num==0) {
+using namespace std; 
+
+int fibonacci(int n) {
+	if(n == 0 ) {
 		return 1;
-	} else {
-		return num*factorial(num-1); //function calling itself
+	}
+	if(n == 1) {
+		return 1;
+	}
+	else {
+		int fib = fibonacci(n-1) + fibonacci(n-2);
+		return fib;
 	}
 }
+
 main() {
-	int num;
-	cout<<"Enter a number : ";
-	cin>>num;
-	int n = factorial(num);
-	cout<<"Factorial of "<<num<<" is "<<n;
+	int n;
+	cout<<"Enter a number to calculate the sum of fibonacci series : "<<endl;
+	cin>>n;
+	cout<<"The sum of the fibonacci series is : "<<fibonacci(n);
 }

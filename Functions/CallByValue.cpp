@@ -7,7 +7,7 @@ void changeValue(int num) {
 	}
 main() {
 	int num = 10;
-	cout<<num<<endl;
-	changeValue(num);
-	cout<<num<<endl;
+	cout<<num<<endl; //10
+	changeValue(num);//11
+	cout<<num<<endl;//10
 }

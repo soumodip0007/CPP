@@ -1,5 +1,5 @@
 #include<iostream>
-// protected => 1.Inside class
+// public => 1.Inside class
 //              2.Outside class
 
 using namespace std;

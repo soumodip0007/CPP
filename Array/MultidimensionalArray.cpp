@@ -2,9 +2,12 @@
 using namespace std;
 
 int main() {
-    const int rows = 2;
-    const int cols = 3;
-
+    cout<<"Enter the rows"<<endl;
+    int rows;
+    cin>>rows;
+    cout<<"Enter the cols"<<endl;
+    int cols;
+    cin>>cols;
     int arr[rows][cols];
  
     cout << "Enter " << rows * cols << " Elements : " << endl;

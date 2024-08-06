@@ -5,6 +5,7 @@ main() {
 	int a = 10;
 	double b = 10.24;
 	char c = 'c';
+	
 	cout<<typeid(a).name()<<endl;
 	cout<<typeid(b).name()<<endl;
 	cout<<typeid(c).name()<<endl;
@@ -14,6 +15,7 @@ main() {
 	int bnew = b;
 	cout<<anew<<endl;
 	cout<<bnew<<endl;
+	
 	//explicit
 	double a2=(double)a;
 	cout<<a2<<endl;

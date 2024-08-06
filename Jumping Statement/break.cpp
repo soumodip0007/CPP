@@ -2,19 +2,16 @@
 
 using namespace std;
 main() {
-	for(int i=1; i<=10; ++i) {
-		if(i==5) {
-			break;
+	int i, j, n;
+	cout<<"Enter the number of rows"<<endl;
+	cin>>n;
+	for(i=1; i<=n; i++) {
+		for(j=i; j<n; j++) {
+			cout<<" ";
 		}
-		cout<<i<<endl;
+		for(j=1; j<= (2 * i -1); j++) {
+			cout<<"*";
+		}
+		cout<<endl;
 	}
-	cout<<"Terminated";
-	
-//	for(int i=1; i<=10; ++i) {
-//		if(i==5) {
-//			continue;
-//		}
-//		cout<<i<<endl;
-//	}
-//	cout<<"Terminated";
 }

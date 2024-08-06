@@ -18,12 +18,12 @@ class Person {
     }
     void display() {
         cout<<"Age : "<<age<<endl;
-        cout<<"Age : "<<name<<endl;
-        cout<<"Age : "<<address<<endl;
+        cout<<"Name : "<<name<<endl;
+        cout<<"Address : "<<address<<endl;
     }
 };
 int main() {
-    Person mario, luigi, shaun;
+    Person mario, luigi, shaun, peach;
     mario.input();
     mario.display();
     luigi.input();

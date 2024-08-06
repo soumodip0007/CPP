@@ -6,7 +6,7 @@ main() {
 	cout<<a<<endl;
 	
 	int &ref = a;
-	cout<<ref<<endl;
-	cout<<++ref<<endl;
-	cout<<a;
+	cout<<ref<<endl; //10
+	cout<<++ref<<endl; //11
+	cout<<a; //11
 }

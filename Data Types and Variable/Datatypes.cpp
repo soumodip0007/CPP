@@ -1,10 +1,11 @@
 #include<iostream>
 #include<string>
+
 using namespace std;
 main() {
 	int a = 10;
 	double b = 10.24;
-	bool c = true;
+	bool c = false;
 	char d = 'a';
 	string e = "Mario";
 	float f = 10.23;

@@ -24,6 +24,6 @@ class Luigi:protected Mario {
 int main() {
 	Luigi l;
 	l.showTwo();
-	//l.showOne();
+	l.showOne();
 	return 0;
 }

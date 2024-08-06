@@ -10,10 +10,14 @@ main() {
 	cout<<ptr<<endl;
 	cout<<*ptr<<endl;
 	cout<<&number<<endl;
-	cout<<&ptr;
+	cout<<&ptr<<endl;
 	
-	cout<<pptr<<endl; //address od pointer
+	if(&ptr == pptr) {
+		cout<<"ok!"<<endl;
+	}
+	
+	cout<<pptr<<endl; //address of pointer
 	cout<<*ptr<<endl; //address of number
 	cout<<**pptr<<endl; //value of number
-	cout<<&pptr; //address of ptr
+	cout<<&pptr<<endl; //address of ptr
 }

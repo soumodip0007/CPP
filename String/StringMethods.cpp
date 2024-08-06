@@ -3,20 +3,10 @@
 #include<algorithm>
 using namespace std;
 main() {	
-	/* string blog;
-	cout<<"Write a blog title : ";
-	getline(cin, blog);
-	cout<<"Blog is about : "<<blog; */
-	
-	string a = "Hello World!";
-	cout<<"Push Back Before : "<<a<<endl;
-	a.push_back('o');
-	cout<<"Push Back After : "<<a<<endl;
-	//a.pop_back();
-	//cout<<"Pop Value : "<<a<<endl;
-	
+		
 	char str[] = "Mario";
 	char strTwo[] = "Luigi";
+	
 	//String length
 	int l = strlen(str);
 	cout<<l<<endl; 
@@ -30,7 +20,7 @@ main() {
 	cout<<str<<endl;
 	//String compare
 	int val = strcmp(str, strTwo);
-	if(val == 0) {
+	if(val == 1) {
 		cout<<"Equal"<<endl;
 	} else {
 		cout<<"Not Equal"<<endl;
@@ -39,7 +29,7 @@ main() {
 	string b = "Hello";
 	cout<<b.length()<<endl;
 	//String replace
-	b.replace(0,4,"Shaun");
+	b.replace(0,4,"Shau");
 	cout<<b<<endl;
 	//String append
 	string c = "Hey";

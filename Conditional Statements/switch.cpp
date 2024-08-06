@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    int day = 5;
+    int day = 112;
     string dayString;
 
     switch (day) {
@@ -32,7 +32,6 @@ int main() {
         default:
             dayString = "Invalid day";
     }
-
     cout << dayString << endl;
 
     return 0;

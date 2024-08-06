@@ -6,7 +6,7 @@ main() {
 	char name[20]; //mutable
 	cout<<"Enter your name : ";
 	cin>>name;
-	cout<<"Name is : "<<name<<endl; */
+	cout<<"Name is : "<<name<<endl; 
 	
 	char address[20]; //immutable
 	cout<<"Enter your address : ";
